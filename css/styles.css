@@ -669,11 +669,7 @@ text-transform: uppercase;
   }
 
 
-.sing-icon{
-  /*position: absolute;
-    top: 13px;
-    right: 28px;*/
-  
+.sing-icon{  
     width: 24px;
     height: 24px;
     padding: 0;
@@ -1013,12 +1009,17 @@ transition: translate 250ms var(--cubic),scale 1150ms var(--cubic);
   height: 30px;
   padding: 0;
   
-
   background-color: #FFFFFF;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+transition: fill 250ms var(--cubic)
+}
 
+.modal-icon:hover,
+.modal-icon:focus{
+  fill: var(--acctent-color);
+  
 }
 
 .modal-form{
@@ -1036,12 +1037,13 @@ font-weight: 700;
 font-size: 20px;
 line-height: 1.15; 
 color: #212121;
+
 }
 
 .from-form {
-  outline: 1px solid blue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-bottom: 10px;
  
 }
@@ -1067,15 +1069,29 @@ color: #212121;
 padding: 12px;
 padding-left:42px;
 border-radius: 4px;
-border-radius: 4px;
 border: 1px solid #21212133;
+cursor: pointer;
+transition: border 250ms var(--cubic)
+
+}
+.form-input:hover,
+.form-input:focus{
+  border: 1px solid var(--acctent-color);
 }
 
+.form-input:hover + .form-icon,
+.form-input:focus + .form-icon{
+  fill: var(--acctent-color);
+  
+}
 .form-icon{
 position:absolute;
 bottom: 14px;
 left:15px;
+transition: fill 250ms var(--cubic)
 }
+
+
 .form-coment{
   display: block;
   width: 100%;
@@ -1107,27 +1123,28 @@ color: #75757580;
     font-size: 14px;
     line-height: 1.7;
     color: var(--main-text-color);
+    text-underline-position: under;
     user-select: none;
 }
 .form-link{
   color: var(--acctent-color);
-  text-underline-position: under;
+  margin-left: 5px;
 }
 .check-icon{
   position: absolute;
   bottom: 4px;
   left: 0;
 }
-.check-icon:checked{
-  background: #2196f3;
-}
+
 .form-icon-check{
   opacity: 0;
 fill: #FFFFFF;
+transition: opacity var(--cubic);
 
 }
 .check-input:checked + .check-icon .form-check-vector{
   opacity: 0;
+  transition: opacity var(--cubic);
 
 }
 .check-input:checked+ .check-icon .form-icon-check{
