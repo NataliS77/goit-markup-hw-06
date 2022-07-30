@@ -1113,23 +1113,24 @@ color: #75757580;
   position: relative;
   display: flex;
   align-items: center;
-  gap: 7px;
    margin-bottom: 30px;
 }
 
 .form-spich{
   display:flex;
- padding-left: 25px;
+  padding-left: 25px;
+  gap: 4px; 
    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: var(--main-text-color);
+    
     text-underline-position: under;
     user-select: none;
 }
 .form-link{
   color: var(--acctent-color);
-  margin-left: 5px;
+  
 }
 .check-icon{
   position: absolute;
