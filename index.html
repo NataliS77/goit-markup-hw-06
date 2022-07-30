@@ -482,41 +482,47 @@
     
     <form class="modal-form">
         <strong class="form-title">Залиште свої дані, ми вам передзвонимо</strong>
+        <span class="form-name">Ім'я</span>
         <div class="from-form">
-      <label for="name" class="form-group">Ім'я
+        <label for="name" class="form-group">
         <input class="form-input" type="text" name="name" id="name" required />
         <svg class="form-icon" width="20" height="20"> 
           <use href="./images/icons.svg#person-black"></use>
         </svg>
       </label>
       </div>
+      <span class="form-name">Телефон</span>
       <div class="from-form">
-      <label for="tel" class="form-group">Телефон
+       <label for="tel" class="form-group">
         <input class="form-input" type="tel" name="tel" id="tel" required />
         <svg class="form-icon" width="20" height="20">
           <use href="./images/icons.svg#phone-black"></use>
         </svg>
       </label>
       </div>
+      <span class="form-name">Пошта</span>
       <div class="from-form">
-      <label for="emal" class="form-group">Пошта
+      <label for="emal" class="form-group">
          <input class="form-input" type="e-mail" name="mail" id="emal" required />
         <svg class="form-icon" width="20" height="20">
           <use href="./images/icons.svg#email-black"></use>
         </svg>
       </label>
       </div>
-      <div class="from-form">
-      <label for="coment" class="form-group">Коментар
+      <span class="form-name">Коментар</span>
+       <label for="coment" class="form-group">
         <textarea class="form-coment" name="text" id="coment" cols="30" rows="10" placeholder="Введіть текст"></textarea>
       </label>
-      </div>
-      <label for="icon-check" class="form-group">
-        <input type="checkbox" name="icon-check" id="icon-check" />
-        <svg class="form-icon" width="20" height="20">
-          <use href="./images/icons.svg#icon-check"></use>
+    
+      <label class="form-check">
+        <input class="check-input" type="checkbox" name="icon-check"  />
+        <svg  class="check-icon" width="20" height="20">
+          <use class="form-icon-check" href="./images/icons.svg#icon-check"></use>
+          <use class="form-check-vector" href="./images/icons.svg#vector"></use>
+
         </svg>
-        <span>Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></span>
+        <span class="form-spich" >Погоджуюся з розсилкою та приймаю
+           <a class="form-link" href="">Умови договору</a></span>
       </label>
     <button class="form-btn" type="submit">Відправити</button>
     </form>
