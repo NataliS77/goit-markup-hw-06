@@ -1163,8 +1163,13 @@ opacity: 1;
   
     color: #FFFFFF;
 
-  background:var(--acctent-bg-color);
+  background:var(--acctent-color);
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px 0px #00000026;
+  transition: background 250ms var(--cubic)
+}
+.form-btn:hover,
+.form-btn:focus{
+  background: var(--acctent-bg-color);
 }
