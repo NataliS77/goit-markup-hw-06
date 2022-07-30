@@ -1135,8 +1135,12 @@ color: #75757580;
 }
 .check-icon{
   position: absolute;
-  bottom: 4px;
-  left: 0;
+  top: 0;
+  bottom: 5px;
+  left: 7px;
+  
+  
+  
 }
 
 .form-icon-check{
