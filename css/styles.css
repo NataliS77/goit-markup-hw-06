@@ -908,7 +908,7 @@ padding: 63px 24px;
     border-radius: 4px;
     background-color: #F5F4FA; 
     
-}
+  }
 /*company icons*/
 .companys-section{
   padding-top: 94px;
@@ -937,6 +937,7 @@ text-align: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
     width: 170px;
     height: 92px;
    border: 1px solid #AFB1B8;
