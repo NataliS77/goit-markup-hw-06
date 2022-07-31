@@ -629,24 +629,23 @@ text-transform: uppercase;
   align-items: center;
   margin-right: 12px;
  }
- 
+
 .sing-input{
   display:inline-block;
   padding: 15px 16px;
- width: 100%;
-
+  width: 358px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
 
   color: #FFFFFF99;
-  border: none;
   background: #2F303A;
+  border-radius: 4px;
+    border: 1px solid #FFFFFF4D;
+    box-shadow: 0px 4px 4px 0px #00000026;
+
   outline: transparent;
-      width: 358px;
-        border-radius: 4px;
-        border: 1px solid #FFFFFF4D;
-        box-shadow: 0px 4px 4px 0px #00000026;
+            
 }
 .sing-btn{
   display: inline-flex;
