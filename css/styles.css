@@ -1110,6 +1110,13 @@ color:  #000000;
 cursor: pointer;
  resize: none;
 }
+textarea::placeholder{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0.01em;
+  color:  #75757580;
+}
  
 .form-check{
   position: relative;
