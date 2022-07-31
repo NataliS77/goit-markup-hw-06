@@ -1089,7 +1089,7 @@ transition: border 250ms var(--cubic)
 position:absolute;
 bottom: 14px;
 left:15px;
-margin-left: 7px;
+
 transition: fill 250ms var(--cubic)
 }
 
@@ -1137,7 +1137,7 @@ color: #75757580;
   position: absolute;
   top: 0;
   bottom: 5px;
-  left: 7px;
+  left: 5px;
   
   
   
