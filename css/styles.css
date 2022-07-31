@@ -665,9 +665,12 @@ text-transform: uppercase;
     background: var(--acctent-color);
     border-radius: 4px;
     border: none;
-    box-shadow: 0px 4px 4px 0px #00000015;
+    transition:  box-shadow 250ms var(--cubic);
   }
-
+.sing-btn:hover,
+.sing-btn:focus{
+  box-shadow: 0px 4px 4px 0px #00000015;
+}
 
 .sing-icon{  
     width: 24px;
@@ -1110,6 +1113,7 @@ color: #75757580;
 
  resize: none;
 }
+
 .form-check{
   position: relative;
   display: flex;
@@ -1137,9 +1141,7 @@ color: #75757580;
   position: absolute;
   bottom: 5px;
   left: 7px;
-  
-  
-  
+   
 }
 
 .form-icon-check{
